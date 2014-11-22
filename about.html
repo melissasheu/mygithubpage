@@ -1,114 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Melissa Sheu | About</title>
-
-  <!-- Latest compiled and minified CSS -->
-  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <link type="text/css" rel="stylesheet" href="navbarcustom.css">
-
-  <style>
-    body{
-      padding-top: 50px;
-    }
-
-    a:link { text-decoration: none;}
-
-    p{
-      font-family: Bookman;
-      font-size: 20px;
-      padding: 50px;
-    }
-
-    footer{
-      font-family:Futura;
-      font-size:10px;
-    }
+  
+    <title>Melissa Sheu | About</title>
     
-    @media screen and (max-width: 960px) {
-      #wrapper {
-        width: 94%;
+    <link type="text/css" rel="stylesheet" href="homepage.css">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="navbarcustom.css">
+    <style>
+      @media screen and (max-width: 2000px) {
+        #wrapper {
+          width: 94%;
+        }
+        article {
+          width:65%;
+        }
+        aside {
+          width: 28%;
+        }
       }
-      article {
-        width:65%;
+      
+      @media screen and (max-width: 2000px) {
+        article {
+          width: auto;
+          float: none;
+        }
+        aside {
+          width: auto;
+          float: none;
+        }
       }
-      aside {
-        width:28%;
-      }
-
-    }
-
-    @media screen and (max-width: 700px) {
-      article{
-        width:auto;
-        float:none;
-      }
-
-      aside {
-        width:auto;
-        float:none;
-      }
-    }
-  </style>
-
-</head>
-
-<body>
-  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-    <div class="container">
-      <div class="navbar-header">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="./" class="navbar-brand"></a>
-      </div>
-      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="index.html">home</a>
-          </li>
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="portfolio.html">portfolio</a>
-          </li>
-          <li>
-            <a href="contact.html">contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-    <!-- Container -->
-    <div class="row">
-      <article class="col-md-8">
-        <h1>What's to say?</h1>
-        <p>I am currently a Junior at TCNJ and majoring in Interactive Multimedia. I love drawing and anything to do with art! I'm really interested in storyboarding, character design, and video games.</p>
-        <p>Want some more information? Check out my <a href="resume.pdf">résume</a> or <a href="contact.html">contact</a> me!</p>
-        <p>I also have: <align="center"><a href="http://lnkd.in/dwm6m5i" target="_blank"><img src="./img/linkedinicon.png" border="0" style="width:50px;height:50px;"></a> & <a href="http://roietoiles.tumblr.com" target="_blank"><img src="./img/tumblricon.png" border="0" style="width:50px;height:50px;"></a></align="center"></p>
-        <p>Thanks for stopping by!!</p>
-      </article>
-    </div>
-    <!-- /container -->
-
+    </style>
+    
+  </head>
+  
+  <body>
+  
+  <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  	<div class="container">
+  		<div class="navbar-header">
+  			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".s-navbar-collapse">
+  				<span class="sr-only">Toggle navigation</span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a href="./" class="navbar-brand"></a>
+  		</div>
+  		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+  			<ul class="nav navbar-nav">
+  				<li>
+  					<a href="main.html">home</a>
+  				</li>
+  				<li>
+  					<a href="about.html">about</a>
+  				</li>
+  				<li>
+  					<a href="portfolio.html">portfolio</a>
+  				</li>
+  				<li>
+  					<a href="contact.html">contact</a>
+  				</li>
+  			</ul>
+  		</nav>
+  	</div>
+  </header>
+  <div class="row">
+	<article class="col-md-8">
+		<h1 style="text-align:center;">What's to say?</h1>
+			<p>I am currently a Junior at TCNJ and majoring in Interactive Multimedia. I love drawing, coding, and anything to do with art! I'm really interested in web design, character design, storyboarding, and video games.</p>
+			<p>Want some more information? Check out my <a href="resume.pdf">résume</a> or <a href="contact.html">contact</a> me!
+			</p>
+			<p>Thanks for stopping by!!</p>
+		</article>
+		</div>
+    
     <div class="row">
       <footer class="col-md-12">
         <p>The works posted on this website belong to me unless otherwise stated.</p>
       </footer>
     </div>
-
-  </header>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.1/js/bootstrap.min.js"></script>
-</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	
+  </body>
 </html>
