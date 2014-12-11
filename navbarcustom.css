@@ -1,0 +1,130 @@
+.navbar{
+  font-family:Futura;
+  font-size: 15px;
+  border: none;
+  overflow: hidden;
+}
+
+.navbar .navbar-nav{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+  text-align: center;
+}
+
+.navbar-inverse { 
+  background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+  background-color: #40E0D0;
+}
+
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+  background-color: #40E0D0;
+}
+
+.dropdown-menu { 
+  background-color: #FFFFFF;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+  background-color: #428BCA;
+}
+
+.navbar-inverse { 
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+  background-image: none; 
+}
+
+.navbar-inverse { 
+  border-color: #080808;
+}
+
+.navbar-inverse .navbar-brand { 
+  color: #999999;
+}
+
+.navbar-inverse .navbar-brand:hover { 
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a { 
+  color: #404040;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { 
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { 
+  color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFFFFF;
+}
+
+body{
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+#welcomebanner{
+  padding: 5px 10px;
+  height: 0px;
+}
+
+#welcomebanner.p{
+  font-family: Bookman;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+#wrapper #article{
+  padding: 50px;
+  margin: 0 auto;
+  max-width: 1114px;
+  position: fixed;
+  height: 100px;
+  width: 50%;
+  padding: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#banners{
+  height: 250px;
+  padding: 100px;
+  position: static;
+}
+
+.centeredImage{
+  text-align: center;
+}
+
+#social{
+  position: static;
+  text-align: center;
+}
+
+#gallery{
+  padding: 50px;
+  text-align: center;
+}
+
+p{      
+  font-family:Bookman;
+  font-size: 20px;
+  padding: 50px;
+}
+
+footer{
+  border: none;
+}
